@@ -1012,14 +1012,14 @@
 				(size 3.81 3.81)
 				(thickness 0.762)
 				(bold yes)
-				(color 255 255 194 1)
+				(color 0 0 255 1)
 			)
 		)
 		(uuid "065f9f91-5399-452a-9043-135fa18ef82c")
 	)
 	(text "MOSI"
 		(exclude_from_sim no)
-		(at 211.074 115.824 0)
+		(at 211.074 114.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 	)
 	(text "CS"
 		(exclude_from_sim no)
-		(at 211.074 110.744 0)
+		(at 211.074 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1048,7 +1048,7 @@
 		)
 		(uuid "995b08f8-affb-4c1b-b415-7e730a43c060")
 	)
-	(text "yes this is bad to have the analog traces running next \nto these 10mhz ~50ns or less rise time spi traces\nhowever the adc does have pretty heavy (~2.5 or so khz) \nlow pass filtering on its inputs. and this analog reading \nisnt that critical.\n\nnot connecting an exc+ and exc- so that i dont couple noise into \nthe more important load cell readings"
+	(text "the analog RTD traces are running close to pretty high speed spi. \nThere is 2.5khz RC filter on the ADC though"
 		(exclude_from_sim no)
 		(at 142.24 67.818 0)
 		(effects
@@ -1060,7 +1060,7 @@
 	)
 	(text "SCLK\n"
 		(exclude_from_sim no)
-		(at 179.07 85.598 0)
+		(at 179.07 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,7 +1090,7 @@
 	)
 	(text "MISO\n"
 		(exclude_from_sim no)
-		(at 179.578 90.678 0)
+		(at 179.578 89.408 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 		(uuid "f65339ec-6cf0-482b-a0f1-f9c2465ff71b")
 	)
 	(junction
-		(at 204.47 101.6)
+		(at 204.47 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "449a6814-187b-4f22-8e50-6dd59253fce7")
@@ -1109,7 +1109,7 @@
 		(uuid "1c6b642b-a6ba-4f7f-8df5-aad2bb9b9f87")
 	)
 	(no_connect
-		(at 203.2 106.68)
+		(at 203.2 105.41)
 		(uuid "447d560e-6dbd-4f97-a890-678d7a70b93b")
 	)
 	(no_connect
@@ -1117,7 +1117,7 @@
 		(uuid "5165167d-6cf6-427e-afd5-11113cb11f20")
 	)
 	(no_connect
-		(at 203.2 96.52)
+		(at 203.2 95.25)
 		(uuid "abe97386-9b7c-4a0b-b207-de24370d873f")
 	)
 	(no_connect
@@ -1125,12 +1125,12 @@
 		(uuid "c44749da-f8ea-4a40-9907-7c5531655d90")
 	)
 	(no_connect
-		(at 181.61 96.52)
+		(at 181.61 95.25)
 		(uuid "d0b18fda-d898-4e15-bcff-030b5781d1a3")
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 204.47 91.44)
+			(xy 204.47 91.44) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 116.84) (xy 181.61 116.84)
+			(xy 163.83 115.57) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 100.33) (xy 204.47 101.6)
+			(xy 204.47 99.06) (xy 204.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 208.28 101.6)
+			(xy 204.47 100.33) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 181.61 86.36)
+			(xy 165.1 85.09) (xy 181.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 204.47 86.36)
+			(xy 203.2 85.09) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 111.76) (xy 224.79 111.76)
+			(xy 203.2 110.49) (xy 224.79 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 87.63) (xy 204.47 86.36)
+			(xy 204.47 86.36) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 208.28 101.6)
+			(xy 208.28 99.06) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 111.76) (xy 180.34 111.76)
+			(xy 181.61 110.49) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 180.34 101.6)
+			(xy 180.34 99.06) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 181.61 91.44)
+			(xy 165.1 90.17) (xy 181.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 203.2 101.6)
+			(xy 204.47 100.33) (xy 203.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 180.34 111.76)
+			(xy 180.34 111.76) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 204.47 91.44)
+			(xy 203.2 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 181.61 101.6)
+			(xy 180.34 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 116.84) (xy 224.79 116.84)
+			(xy 203.2 115.57) (xy 224.79 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 181.61 106.68)
+			(xy 163.83 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1481,7 @@
 	)
 	(hierarchical_label "OUT_MOSI"
 		(shape input)
-		(at 224.79 116.84 0)
+		(at 224.79 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 	)
 	(hierarchical_label "OUT_RTD+"
 		(shape input)
-		(at 163.83 106.68 180)
+		(at 163.83 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 	)
 	(hierarchical_label "OUT_CS"
 		(shape input)
-		(at 224.79 111.76 0)
+		(at 224.79 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 	)
 	(hierarchical_label "OUT_MISO"
 		(shape input)
-		(at 165.1 91.44 180)
+		(at 165.1 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1558,7 +1558,7 @@
 	)
 	(hierarchical_label "OUT_RTD-"
 		(shape input)
-		(at 163.83 116.84 180)
+		(at 163.83 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 	)
 	(hierarchical_label "OUT_SCLK"
 		(shape input)
-		(at 165.1 86.36 180)
+		(at 165.1 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "019f89f6-edf7-4ccd-8d76-fddffc29f5f3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1672,7 +1672,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1686,7 +1686,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 113.03 0)
+		(at 180.34 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1697,18 +1697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3be43d-3568-4515-b287-a74303ac1e6e")
-		(property "Reference" "#PWR048"
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
+		(property "Reference" "#PWR051"
 			(at 180.34 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1719,8 +1708,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 180.34 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 180.34 113.03 0)
+			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 113.03 0)
+			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 113.03 0)
+			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,7 +1758,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1772,7 +1772,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 208.28 100.33 0)
+		(at 208.28 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1783,7 +1783,7 @@
 		(fields_autoplaced yes)
 		(uuid "41c02259-17f7-4ce9-a38a-c20eca38b07f")
 		(property "Reference" "#FLG04"
-			(at 208.28 98.425 0)
+			(at 208.28 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 208.28 95.25 0)
+			(at 208.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +1805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 100.33 0)
+			(at 208.28 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1816,7 +1816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 100.33 0)
+			(at 208.28 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 100.33 0)
+			(at 208.28 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,7 +1851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 87.63 0)
+		(at 204.47 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1861,18 +1861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52dd05d7-52c3-4043-bda2-abe5da921766")
-		(property "Reference" "#PWR050"
-			(at 204.47 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
+		(property "Reference" "#PWR052"
 			(at 204.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1883,8 +1872,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 204.47 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1922,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1936,7 @@
 	)
 	(symbol
 		(lib_id "1_custom:ribbon_2x7_connector")
-		(at 186.69 93.98 0)
+		(at 186.69 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1946,8 +1946,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a1edf9-2bf8-4656-86a6-36e91c32d7de")
-		(property "Reference" "J12"
-			(at 192.405 80.01 0)
+		(property "Reference" "J9"
+			(at 192.405 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Value" "ribbon_2x7_connector"
-			(at 192.405 82.55 0)
+			(at 192.405 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "Footprint" "1_custom_connectors:idc_1.27_smd_2x7"
-			(at 182.88 44.704 0)
+			(at 182.88 43.434 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1978,7 +1978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 93.98 0)
+			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.436 44.196 0)
+			(at 186.436 42.926 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 186.69 93.98 0)
+			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2055,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "J12")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "784369e6-b638-4eaa-84c4-1adbfacc5156")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 88.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2132,7 +2132,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2156,7 +2156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7970123c-fbfc-4551-a26e-67c5becbf59c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2217,7 +2217,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2231,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 92.71 0)
+		(at 204.47 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2241,18 +2241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a48065c-2037-4f06-90c7-54deaf63ddc8")
-		(property "Reference" "#PWR051"
-			(at 204.47 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
+		(property "Reference" "#PWR053"
 			(at 204.47 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2263,8 +2252,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 204.47 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 204.47 92.71 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 92.71 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 92.71 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2302,7 +2302,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2316,7 +2316,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 100.33 0)
+		(at 204.47 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2326,8 +2326,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aae451ca-831b-4ece-a9a6-42562a681b4f")
-		(property "Reference" "#PWR055"
-			(at 204.47 104.14 0)
+		(property "Reference" "#PWR054"
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,7 +2338,7 @@
 			)
 		)
 		(property "Value" "SNAP_+3V3"
-			(at 212.598 96.012 0)
+			(at 212.598 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 100.33 0)
+			(at 204.47 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 100.33 0)
+			(at 204.47 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 100.33 0)
+			(at 204.47 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2381,7 +2381,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 204.47 100.33 0)
+			(at 204.47 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2397,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2416,7 +2416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac25482c-c8dc-4933-a0a9-2562c42df5f7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 88.9 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2477,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2501,7 +2501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b59d937e-d09d-471a-8a09-62cdce49b429")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2562,7 +2562,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2576,7 +2576,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 180.34 100.33 0)
+		(at 180.34 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2585,8 +2585,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbfde162-242c-4875-b3c8-47a7a213e4c0")
-		(property "Reference" "#PWR047"
-			(at 180.34 104.14 0)
+		(property "Reference" "#PWR050"
+			(at 180.34 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +2597,7 @@
 			)
 		)
 		(property "Value" "SNAP_+3V3"
-			(at 172.466 98.806 0)
+			(at 172.466 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +2607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 100.33 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 100.33 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,7 +2629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 100.33 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2640,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 180.34 100.33 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2656,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb9814e-ecc8-4db5-8f9c-49f76b25b89d")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 100.965 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2789,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c72900be-d659-4dc2-a616-3f2ce0e5c619"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)

@@ -3,4 +3,5 @@
 	(lib (name "!motor_drivers") (type "KiCad") (uri "/home/akdommers/Desktop/kicad_libraries/!motor_drivers.pretty") (options "") (descr ""))
 	(lib (name "!sensors") (type "KiCad") (uri "/home/akdommers/Desktop/kicad_libraries/!sensors.pretty") (options "") (descr ""))
 	(lib (name "1_custom_connectors") (type "KiCad") (uri "/home/akdommers/Desktop/kicad_libraries/1_custom_connectors.pretty") (options "") (descr ""))
+	(lib (name "Downloads") (type "KiCad") (uri "/home/akdommers/Downloads") (options "") (descr ""))
 )

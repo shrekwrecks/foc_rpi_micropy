@@ -550,7 +550,7 @@
         "name": "HSTX",
         "pcb_color": "rgb(160, 161, 0)",
         "priority": 3,
-        "schematic_color": "rgb(160, 161, 0)",
+        "schematic_color": "rgb(137, 142, 0)",
         "track_width": 0.25,
         "tuning_profile": "",
         "wire_width": 8
@@ -559,7 +559,7 @@
         "name": "Motorpower",
         "pcb_color": "rgb(255, 89, 0)",
         "priority": 4,
-        "schematic_color": "rgb(255, 89, 0)",
+        "schematic_color": "rgb(169, 101, 0)",
         "tuning_profile": "",
         "wire_width": 12
       },
@@ -570,7 +570,7 @@
         "name": "analog",
         "pcb_color": "rgb(186, 89, 201)",
         "priority": 1,
-        "schematic_color": "rgb(186, 89, 201)",
+        "schematic_color": "rgb(126, 60, 136)",
         "track_width": 0.152,
         "tuning_profile": ""
       },
@@ -849,7 +849,7 @@
         "uuid": "d214fd6e-2db0-437c-9688-cb5c4049811c"
       }
     ],
-    "used_designators": "U7,Q1,C24-26,C28-29,J9-10,#PWR30,#PWR49,#PWR52,#PWR58-61,#FLG1-4",
+    "used_designators": "X1,#FLG1-4,TH1,#PWR1-57,A1,C1-27,H1-4,J1-10,JP1,R1-11,MNT1,Q1,U1-7,NT1-3",
     "variants": []
   },
   "sheets": [
@@ -858,16 +858,12 @@
       "Root"
     ],
     [
+      "8800cac1-8f40-4a73-92eb-69dc9f669b2b",
+      "ideal_diode"
+    ],
+    [
       "15053b24-78c8-4ef8-b22f-7d8e43811ce6",
       "mcu_pico2"
-    ],
-    [
-      "5b251644-28ab-40a3-ba85-8f13a3d33912",
-      "drv8844"
-    ],
-    [
-      "3a208c27-9eaf-4742-9503-f43a901bfafa",
-      "snapoff_board"
     ],
     [
       "c285e8e9-5807-4803-93c1-c03e4e6c8e02",
@@ -878,8 +874,12 @@
       "ribbon_cable"
     ],
     [
-      "8800cac1-8f40-4a73-92eb-69dc9f669b2b",
-      "ideal_diode"
+      "3a208c27-9eaf-4742-9503-f43a901bfafa",
+      "snapoff_board"
+    ],
+    [
+      "5b251644-28ab-40a3-ba85-8f13a3d33912",
+      "drv8844"
     ]
   ],
   "text_variables": {},

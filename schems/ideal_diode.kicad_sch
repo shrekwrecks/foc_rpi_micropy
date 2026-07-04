@@ -870,9 +870,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "cathode \"atleast 100nf\"\ncovered by bulk and drive capacitance"
+	(text "cathode \"atleast 100nf\"\ncovered by bulk capacitance (100uf)"
 		(exclude_from_sim no)
-		(at 152.4 67.818 0)
+		(at 177.038 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -882,7 +882,7 @@
 	)
 	(text "\"atleast 22nf input\""
 		(exclude_from_sim no)
-		(at 108.966 95.758 0)
+		(at 123.952 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,9 +890,9 @@
 		)
 		(uuid "9f1910e7-a232-4dcc-9d23-7559b290b942")
 	)
-	(text "vcap gets 15 volts across (50v cap ok)\n\"vcap > 10 * mosfet C_{iss} in uf\"\nCiss S100N85F is 4700pf or 4.7nf\nso 100nf sufficient\n\n"
+	(text "vcap gets 15 volts across\n\"vcap > 10 * mosfet C_{iss} in uf\"\nCiss S100N85F is 4700pf or 4.7nf\nso 100nf is sufficient\n\n"
 		(exclude_from_sim no)
-		(at 109.982 121.666 0)
+		(at 102.87 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "018812d0-8649-4cf2-9779-9c3ddcd6057e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 142.24 127 0)
 			(hide yes)
 			(show_name no)
@@ -1402,7 +1402,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1514,7 +1514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a572bd3-f3d2-448d-b493-4d5871017e3c")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 118.364 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70466c16-669b-446d-b32f-77fa6385302e")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 112.522 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1704,7 +1704,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -1722,7 +1722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7273fd20-58ab-41bf-9860-53ee5a1eae75")
-		(property "Reference" "C29"
+		(property "Reference" "C27"
 			(at 121.666 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1808,7 +1808,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "C29")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1826,7 +1826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b89d882b-21b9-477d-8c49-ebaab497be2c")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 121.666 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1912,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4084e48-482c-4b2c-90cc-62982079c1b4")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 123.444 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2116,7 +2116,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2134,7 +2134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f2e39f-7ac3-4bc6-86ed-5df071edbdfd")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR055"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2195,7 +2195,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/8800cac1-8f40-4a73-92eb-69dc9f669b2b"
-					(reference "#PWR059")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

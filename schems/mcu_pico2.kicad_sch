@@ -2811,6 +2811,16 @@
 		)
 		(uuid "b981d467-6769-49d6-9e80-be7d889388e1")
 	)
+	(text "if adc doesnt work \ncan use qwiic to connect to one of my \ni2c load cell boards"
+		(exclude_from_sim no)
+		(at 107.95 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd8e2ae0-efdc-46c9-a0b0-d85f5ae1700b")
+	)
 	(junction
 		(at 302.26 196.85)
 		(diameter 0)
@@ -2997,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 177.8) (xy 242.57 177.8)
+			(xy 247.65 177.8) (xy 242.57 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 172.72) (xy 242.57 172.72)
+			(xy 247.65 172.72) (xy 242.57 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 162.56) (xy 242.57 162.56)
+			(xy 247.65 162.56) (xy 242.57 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3307,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 175.26) (xy 242.57 175.26)
+			(xy 247.65 175.26) (xy 242.57 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3457,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 160.02) (xy 242.57 160.02)
+			(xy 247.65 160.02) (xy 242.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3517,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 157.48) (xy 242.57 157.48)
+			(xy 247.65 157.48) (xy 242.57 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3745,7 @@
 		)
 		(uuid "2db5a50a-5903-4e0a-9f0f-7a122f81c5ba")
 	)
-	(label "SWCLK"
+	(label "SWDIO"
 		(at 182.88 132.08 0)
 		(effects
 			(font
@@ -4014,7 +4024,7 @@
 	)
 	(hierarchical_label "GPIO28"
 		(shape input)
-		(at 248.92 177.8 0)
+		(at 247.65 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4025,7 +4035,7 @@
 	)
 	(hierarchical_label "ADC0"
 		(shape input)
-		(at 248.92 172.72 0)
+		(at 247.65 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4079,7 @@
 	)
 	(hierarchical_label "PWM2_A"
 		(shape input)
-		(at 252.73 157.48 0)
+		(at 247.65 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,7 +4090,7 @@
 	)
 	(hierarchical_label "ADC1"
 		(shape input)
-		(at 248.92 175.26 0)
+		(at 247.65 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4156,7 @@
 	)
 	(hierarchical_label "GPIO22"
 		(shape input)
-		(at 252.73 162.56 0)
+		(at 247.65 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4167,7 @@
 	)
 	(hierarchical_label "PWM2_B"
 		(shape input)
-		(at 252.73 160.02 0)
+		(at 247.65 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4179,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10d2e027-eff2-4840-a780-8b28a0e24f3a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR07"
 			(at 116.84 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4239,7 +4249,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR054")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db40e94-803b-4072-99ee-4244c9da7395")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 243.84 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -4318,7 +4328,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4336,7 +4346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32abde5f-19f5-49bd-9f3e-23b6c2266ebb")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 103.886 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4430,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3314ee7c-9dcc-4e6d-bc61-2670350f33f3")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 135.89 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4534,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4552,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f666b3b-30bd-4f8e-83c0-d95ca3b47628")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 165.1 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4640,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70a4f5a3-fbf0-44f1-b8bf-1d8c6142dcdf")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 139.7 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4733,7 +4743,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "863d4c2a-5130-42e4-8802-49a52f6ae8c9")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 139.7 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4846,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4854,7 +4864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "884c9396-5c27-456f-aa85-8412e4807cc5")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 135.89 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4950,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4956,10 +4966,9 @@
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c137046-49e5-4755-a013-8fe9d0d66b09")
 		(property "Reference" "A1"
-			(at 221.8533 194.31 0)
+			(at 200.66 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4970,7 +4979,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 221.8533 196.85 0)
+			(at 221.742 193.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5206,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad222557-4747-4c81-89e8-a1b93c08ae28")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 168.91 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5276,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06991e2-276a-4b34-b458-7262631e164d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5345,7 +5354,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b291f4a2-826a-4568-b9a6-5ef8b5a048f2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 219.71 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -5424,7 +5433,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b339f95e-09e2-4e4a-b4d7-d2d785a77f1a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 219.71 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5502,7 +5511,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8733695-98f7-4864-b9c1-d061dbda2c09")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR08"
 			(at 120.65 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5582,7 +5591,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR053")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9bae831-6199-4aef-aaf2-d40366d9fbf0")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR09"
 			(at 135.89 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5660,7 +5669,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR028")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca1f75b2-a713-4f1d-b1a2-0236c77bd428")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 224.79 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5747,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f22240a6-b50f-4546-8f1f-d627be9c0265")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 313.69 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +5904,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5913,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97ce875-2b25-4881-a7f5-d0a786aa65ff")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 297.18 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -5974,7 +5983,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/15053b24-78c8-4ef8-b22f-7d8e43811ce6"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

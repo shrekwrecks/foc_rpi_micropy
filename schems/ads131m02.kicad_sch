@@ -1484,7 +1484,7 @@
 				(size 3.81 3.81)
 				(thickness 0.762)
 				(bold yes)
-				(color 255 255 194 1)
+				(color 0 0 255 1)
 			)
 		)
 		(uuid "0a7ea162-3d74-40ea-8519-fc852a2a042c")
@@ -2487,7 +2487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d61f3ec-b81f-485f-94fe-84f69d3429fa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR042"
 			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2548,7 +2548,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR033")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24386520-b153-4b65-a724-2e32391dc463")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 135.636 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2652,7 +2652,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2670,7 +2670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3143bdef-6cb2-4aab-9f9b-260c714d77f1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2731,7 +2731,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35410cf2-a1af-4242-b3f9-f1546dfa3e82")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2809,7 +2809,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40168eaa-d66b-480a-abeb-c9b391d28a96")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 151.13 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2887,7 +2887,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2905,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42146a92-95b6-4489-9490-46a887ab2eed")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2966,7 +2966,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2984,7 +2984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59251af7-68f9-4d06-969c-7db76ce6e69d")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 163.576 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3070,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61ea897f-60a1-40d0-89c5-daa1d7a084cd")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 101.6 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3173,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3270,7 +3270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7337bedb-dc25-4888-9a73-e488d89564fa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 177.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3330,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3348,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c5744e-0d71-4d8c-bc7a-e4827f0d1594")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 140.97 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3409,7 +3409,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3426,7 +3426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85b0c87f-89f7-45cb-a4e8-577e196cc153")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 103.886 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3512,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3529,7 +3529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b205942-6c03-4016-8043-631ec426bde9")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 101.854 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6c00ac7-e98d-44ae-9054-e3c7755d99b0")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 135.636 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +3861,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3972,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc0644d4-3f13-4229-b80e-4f0d3f9fe6ea")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 156.21 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4154,7 +4154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8a7c1b9-f75f-4c0b-a29d-bcb8a6ebeee3")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 170.434 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4240,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cda3b5b6-e3ad-4009-8fc6-ef5f7101973b")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 161.544 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4343,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d38a370c-3bca-4ad4-8474-18abaac7fb6d")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 103.632 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,7 +4446,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e12b4254-196c-4687-9194-52861a6cef3f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4525,7 +4525,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fcc8400f-410d-4308-bfe6-98703234ec61")
-		(property "Reference" "NT1"
+		(property "Reference" "NT2"
 			(at 145.796 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 		(instances
 			(project "dual_core_foc_micropy"
 				(path "/d214fd6e-2db0-437c-9688-cb5c4049811c/c285e8e9-5807-4803-93c1-c03e4e6c8e02"
-					(reference "NT1")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
