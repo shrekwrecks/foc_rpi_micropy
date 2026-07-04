@@ -1,0 +1,32 @@
+# KiCad backups and autosave
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+fp-info-cache
+
+# KiCad lock files
+*.lck
+
+# Project-local caches
+*.kicad_prl
+
+# Netlist/BOM generation outputs (optional — skip if you want these tracked)
+*.net
+*.xml
+
+# Plot/export outputs (Gerbers, drill files, etc. — usually regenerated, not tracked)
+*.gbr
+*.drl
+*.pos
+*.rpt
+*-drc.rpt
+*-erc.rpt
+
+# 3D model cache
+*.3dshapes/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db

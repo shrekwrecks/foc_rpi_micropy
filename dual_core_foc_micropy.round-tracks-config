@@ -1,0 +1,7 @@
+Default	True	2.0	3
+GND	True	2.0	3
+HSTX	True	2.0	3
+Motorpower	True	2.0	3
+analog	True	2.0	3
+logic_pwr	True	2.0	3
+False	False	False
